@@ -30,6 +30,7 @@ public class Excel {
 		row=sheet.getRow(rownum);
 		cell=row.getCell(cellnum);
 		//updating it from local to remote
+		//now updating back from remote to local
 		return(cell.getStringCellValue());
 	}
 
