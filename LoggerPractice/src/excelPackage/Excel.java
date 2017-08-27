@@ -16,6 +16,7 @@ public class Excel {
 	XSSFRow row= null;
 	XSSFCell cell=null;
 	//sample
+	//updating from remote
 	public String readExcel(int rownum, int cellnum) throws IOException
 	{
 		File file=new File("C:\\Users\\Tarun\\workspace\\LoggerPractice\\Utility\\SearchItem.xlsx");
